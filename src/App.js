@@ -1,7 +1,11 @@
 import "./App.css";
+import _ from "lodash";
 
 const App = ({ name }) => {
-  return `<h2>Welcome ${name}</h2>`;
+  return `
+      <h2> ${_.join(["Welcome,", name], " ")} </h2>
+      <p> Build apps with plain JS but with modern tooling  </p>
+      `;
 };
 
 export default App;
