@@ -1,0 +1,23 @@
+{
+  "name": "webpack-starter",
+  "version": "1.0.0",
+  "description": "webpack starter project",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanketDhabarde/webpack-starter.git"
+  },
+  "author": "Sanket Dhabarde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SanketDhabarde/webpack-starter/issues"
+  },
+  "homepage": "https://github.com/SanketDhabarde/webpack-starter#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
