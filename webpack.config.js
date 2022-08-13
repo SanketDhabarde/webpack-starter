@@ -28,7 +28,7 @@ const webpackConfig = {
       },
       {
         test: /\.(png|svg|jpeg|jpg|gif)$/i,
-        type: "asset/resource",
+        type: "asset",
       },
     ],
   },
