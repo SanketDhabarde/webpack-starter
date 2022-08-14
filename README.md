@@ -16,22 +16,28 @@
 - HTML webpack plugin
 - Code splitting (vendor bundle and main bundle)
 - Caching
+- ES6 fully supported
+- `import/export` (ES Modules support)
 
 ## 🤯 How to get starter project locally
 ### 1. Install `degit`
-```
+```cmd
 npm install -g degit
 ```
-### 2. Create empty folder and run this command
+### 2. Run degit command to get starter pack and give your app name
+```cmd
+degit SanketDhabarde/webpack-starter#develop your-app-name
 ```
-degit SanketDhabarde/webpack-starter
+### 4. Go inside your app's directory
+```cmd
+cd your-app-name
 ```
 ### 3. Install dependencies
-```
+```cmd
 npm i
 ```
 ### 4. Run the starter kit
-```
+```cmd
 npm start
 ```
 With that you can see your app running on `localhost:3000`
