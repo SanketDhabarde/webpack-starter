@@ -10,6 +10,17 @@ const webpackConfig = {
     clean: true,
   },
 
+  devtool: "inline-source-map",
+  devServer: {
+    static: {
+      directory: path.resolve(__dirname, "dist"),
+    },
+    compress: true,
+    open: true,
+    hot: true,
+    port: 3000,
+  },
+
   mode: "production",
 
   module: {
