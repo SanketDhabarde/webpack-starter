@@ -4,25 +4,6 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const webpackConfig = {
   entry: path.resolve(__dirname, "src", "index.js"),
 
-  output: {
-    filename: "[name].[contenthash].bundle.js",
-    path: path.resolve(__dirname, "dist"),
-    clean: true,
-  },
-
-  devtool: "inline-source-map",
-  devServer: {
-    static: {
-      directory: path.resolve(__dirname, "dist"),
-    },
-    compress: true,
-    open: true,
-    hot: true,
-    port: 3000,
-  },
-
-  mode: "production",
-
   module: {
     rules: [
       {
@@ -52,19 +33,6 @@ const webpackConfig = {
       template: path.resolve(__dirname, "src", "index.html"),
     }),
   ],
-
-  optimization: {
-    splitChunks: {
-      cacheGroups: {
-        node_vendors: {
-          name: "vendor",
-          test: /[\\/]node_modules[\\/]/,
-          chunks: "all",
-          priority: 1,
-        },
-      },
-    },
-  },
 };
 
 module.exports = webpackConfig;
