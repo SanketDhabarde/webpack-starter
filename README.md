@@ -18,6 +18,7 @@
 - Caching
 - ES6 fully supported
 - `import/export` (ES Modules support)
+- Lazy loading in component
 
 ## 🤯 How to get starter project locally
 ### 1. Install `degit`
