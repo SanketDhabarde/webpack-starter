@@ -45,7 +45,7 @@ With that you can see your app running on `localhost:3000`
 
 
 ## 👩🏾‍💻 `mode: "development"`
-When we run `npm start` the mode is development. So, the files will not have code splitting and caching. And if you open `dist/main.js` you will see lot of information
+When we run `npm start` the mode is development. So, the files will not have code splitting and caching. And if you open `dist/main.bundle.js` you will see lot of information
 
 
 ## 👩🏾‍💻 `mode: "production"`
