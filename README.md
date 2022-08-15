@@ -45,15 +45,20 @@ With that you can see your app running on `localhost:3000`
 
 
 ## 👩🏾‍💻 `mode: "development"`
-When we run `npm start` the mode is development. So, the files will not have code splitting and caching. And if you open `dist/main.bundle.js` you will see lot of information
+When we run 
+```cmd
+npm start
+```
+The mode is development. So, the files will not have code splitting and caching. And if you open `dist/main.bundle.js` you will see lot of information. Also, dev server will be available in development mode.
 
 
 ## 👩🏾‍💻 `mode: "production"`
-When you want optimized build you need to run 
-```
+When we want optimized build we need to run 
+
+```cmd
 npm run build
 ```
-This will give you the optimized build with code splitting (vendor bundle and main bundle) and caching. And the `dist/main.[somehash].js` file will be optimized
+This will give us the optimized build with code splitting (vendor bundle and main bundle) and caching. And the `dist/main.[somehash].js` file will be optimized
 
 
 ## 👨‍💻 Connect with me 
