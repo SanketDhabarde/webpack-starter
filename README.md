@@ -49,7 +49,7 @@ When we run `npm start` the mode is development. So, the files will not have cod
 
 
 ## 👩🏾‍💻 `mode: "production"`
-When you want optimize build you need to run 
+When you want optimized build you need to run 
 ```
 npm run build
 ```
